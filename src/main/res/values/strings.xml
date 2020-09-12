@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Leaderboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Learning_leaders"><font color='#3700B3'>Learning Leaders</font></string>
+    <string name="status_stop"><font fgcolor='#78574'>Stopped</font></string>
+
+
+    <string name="hello_worldRed"><![CDATA[<b><font color=#FF0000>Hello world!</font></b>]]></string>
+
+</resources>

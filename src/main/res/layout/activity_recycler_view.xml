@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgd"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".RecyclerView">
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@drawable/submit" />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayout"
+        app:tabIndicatorHeight="7dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/darker_gray">
+    </com.google.android.material.tabs.TabLayout>
+
+<androidx.viewpager.widget.ViewPager
+    android:layout_marginTop="10dp"
+    android:id="@+id/vpPager"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+</androidx.viewpager.widget.ViewPager>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view1">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
